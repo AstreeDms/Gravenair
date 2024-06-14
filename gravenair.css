@@ -12,7 +12,7 @@ body {
 
 
 header {
-    background: url(header-section.jpg) fixed;
+    background: url(header-section.jpg) fixed no-repeat;
     height: 500px;
     display:flex;
     flex-direction: column; 
