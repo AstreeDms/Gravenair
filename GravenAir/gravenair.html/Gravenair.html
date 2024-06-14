@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graven'air</title>
+    <link rel="stylesheet" type="text/css" href="../css/gravenair.css">
+</head>
+<body>
+    <header>
+
+    <H1>Graven'air ✈</H1>
+    <H4>La tête dans les nuages </H4>
+</header>
+
+<div class="form">
+    <form method="post">
+        <div>
+        <label for="Origine">Ville de départ</label>
+        <input type="text" id="Origine" placeholder="Lyon, Paris...">
+
+        <label for="Destination">Ville d'arrivée</label>
+        <input type="text" id="Destination" placeholder="Paris, Milan...">
+        </div>
+
+        <div>
+        <label for="depart">Date de départ</label>
+        <input type="date" id="depart">
+
+        <label for="retour">Date de retour</label>
+        <input type="date" id="retour">
+        </div>
+
+        <div>
+        <label for="adultes">Nombre d'adultes</label>
+        <select id="adultes">
+            <option value="0">0 adulte</option>
+            <option value="1">1 adulte</option>
+            <option value="2" selected>2 adultes</option>
+            <option value="3">3 adultes</option>
+            <option value="3">4 adultes</option>
+            <option value="3">5 adultes</option>
+        </select>
+
+        <label for="Enfants">Nombre d'enfants</label>
+        <select id="Enfants">
+            <option value="0">0 enfant</option>
+            <option value="1">1 enfant</option>
+            <option value="2">2 enfants</option>
+            <option value="3">3 enfants</option>
+            <option value="3">4 enfants</option>
+            <option value="3">5 enfants</option>
+        </select>
+
+        <label for="categorie">Catégorie</label>
+        <select id="categorie">
+            <option value="eco">Economique</option>
+            <option value="affaires">Affaires</option>
+        </select>
+        </div>
+
+        <button class="recherche-button">Lancer la recherche</button>
+
+
+    </form>
+</div>
+
+
+            <H2 class="explore">Explorez le monde</H2>
+   
+        <section class="table-destination">
+
+            <div class="city-block barcelone">
+                <div class="overlay">
+                    <span class="city">Barcelone</span>
+                     <span class="price">Dès 80€</span>
+                </div>
+            </div>
+
+            <div class="city-block dubai">
+                <div class="overlay">
+                    <span class="city">Dubai</span>
+                     <span class="price">Dès 800€</span>
+                </div>
+            </div>
+
+            <div class="city-block Manille">
+                <div class="overlay">
+                    <span class="city">Manille</span>
+                     <span class="price">Dès 1300€</span>
+                </div>
+            </div>
+
+            <div class="city-block Paris">
+                <div class="overlay">
+                    <span class="city">Paris</span>
+                     <span class="price">Dès 90€</span>
+                </div>
+            </div>
+        </section>
+        
+ <footer>
+    <p>&copy Copyright 2024 - Tous droits réservés</p>
+ </footer>
+</body>
+</html>
