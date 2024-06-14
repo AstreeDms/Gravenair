@@ -12,7 +12,7 @@ body {
 
 
 header {
-    background: url(../img/header-section.jpg) fixed;
+    background: url(header-section.jpg) fixed;
     height: 500px;
     display:flex;
     flex-direction: column; 
@@ -50,15 +50,15 @@ header H4 {
 }
 
 .barcelone {
-    background-image: url(../img/barcelone.jpg);
+    background-image: url(barcelone.jpg);
 }
 
 .dubai {
-    background-image: url(../img/dubai.jpg);
+    background-image: url(dubai.jpg);
 }
 
 .Paris {
-    background-image: url(../img/paris.jpg);
+    background-image: url(paris.jpg);
 }
 
 .city-block {
@@ -110,7 +110,7 @@ left: 0px;
 }
 
 .Manille {
-    background-image: url(../img/philippines.jpg);
+    background-image: url(philippines.jpg);
 }
 
 /* FORMULAIRE DE RECHERCHE */
